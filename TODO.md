@@ -1,0 +1,4 @@
+- finish making websocket client work. figure-out python async: https://websockets.readthedocs.io/en/stable/intro.html#installation
+- add JSON wrappers
+- publish JSON similarly to how websockets lib publishes events (via decorators)
+- optionally use engine.io connection (rather than just websockets)

@@ -26,7 +26,7 @@ setup(
     packages=["ezdevice"],
     include_package_data=True,
     install_requires=["websockets"],
-    python_requires='>=3.4',
+    python_requires='>=3.6',
     entry_points={
         "console_scripts": [
             "primus=primus.__main__:main",
