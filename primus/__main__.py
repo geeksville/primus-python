@@ -21,6 +21,7 @@ def main():
 
     logging.basicConfig(level=logging.DEBUG if args.debug else logging.INFO)
 
+    args.server = "ws://localhost:3030/primus?_primuscb=McnNBFM"  # for testing
     if args.server:
         client = PrimusClient()
         client.connect(args.server)

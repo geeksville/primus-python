@@ -25,8 +25,8 @@ setup(
     ],
     packages=["ezdevice"],
     include_package_data=True,
-    install_requires=["python-engineio"],
-    python_requires='>=3',
+    install_requires=["websockets"],
+    python_requires='>=3.4',
     entry_points={
         "console_scripts": [
             "primus=primus.__main__:main",
