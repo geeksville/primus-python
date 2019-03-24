@@ -1,7 +1,7 @@
 rm dist/*
 set -e
 
-pydoc3 -w ezdevice.client
+# pydoc3 -w ezdevice.client
 mv *.html doc
 
 python3 setup.py sdist bdist_wheel

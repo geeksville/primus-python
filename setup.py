@@ -9,12 +9,12 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="ezdevice",
-    version="0.0.7",
-    description="Python tool & library for using ESP32 based Ezdevice.net projects",
+    name="primus-python",
+    version="0.0.1",
+    description="A python client library for Primus compatible web servers",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/geeksville/ezdevice-python",
+    url="https://github.com/geeksville/primus-python",
     author="Kevin Hester",
     author_email="kevinh@geeksville.com",
     license="MIT",
@@ -25,11 +25,11 @@ setup(
     ],
     packages=["ezdevice"],
     include_package_data=True,
-    install_requires=["esptool", "requests"],
+    install_requires=["python-engineio"],
     python_requires='>=3',
     entry_points={
         "console_scripts": [
-            "ezdevice=ezdevice.__main__:main",
+            "primus=primus.__main__:main",
         ]
     },
 )

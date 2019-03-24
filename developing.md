@@ -1,4 +1,4 @@
-# Instructions for developers of ezdevice-python
+# Instructions for developers of primus-python
 
 The setup file was developed using instructions from https://realpython.com/pypi-publish-python-package/.
 
