@@ -2,4 +2,5 @@
 
 """Client library for primus servers"""
 
-from .client import PrimusClient
+from .primus import PrimusClient
+from .feathers import FeathersClient

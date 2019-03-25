@@ -1,7 +1,7 @@
 #!python
 
 import argparse
-from .client import PrimusClient
+from .feathers import EZDeviceFeathers
 import logging
 
 
@@ -22,9 +22,11 @@ def main():
     logging.basicConfig(level=logging.DEBUG if args.debug else logging.INFO)
 
     args.server = "ws://localhost:3030/primus?_primuscb=McnNBFM"  # for testing
+    # args.server = "wss://api.ezdevice.net/primus?_primuscb=McnNBFM"  # for testing
     if args.server:
-        client = PrimusClient()
+        client = EZDeviceFeathers()
         client.connect(args.server)
+        client.close()
     else:
         parser.print_help()
 
