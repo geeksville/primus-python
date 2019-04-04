@@ -21,8 +21,8 @@ def main():
 
     logging.basicConfig(level=logging.DEBUG if args.debug else logging.INFO)
 
-    args.server = "ws://localhost:3030/primus?_primuscb=McnNBFM"  # for testing
-    # args.server = "wss://api.ezdevice.net/primus?_primuscb=McnNBFM"  # for testing
+    # args.server = "ws://localhost:3030/primus?_primuscb=McnNBFM"  # for testing
+    args.server = "wss://api.ezdevice.net/primus?_primuscb=McnNBFM"  # for testing
     if args.server:
         client = EZDeviceFeathers()
         client.connect(args.server)
