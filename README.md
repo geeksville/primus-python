@@ -1,4 +1,4 @@
-# Primus-python
+# Pyrimus
 
 A python client library for receiving/sending realtime events to [Primus](https://github.com/primus/primus) compatible servers, and possibly creating such servers in python.
 This project is based on the work that was started at  [Primus-Python][https://github.com/geeksville/primus-python].
