@@ -2,6 +2,6 @@
 name = "Pyrimus"
 version = "0.0.1"
 description = "A python client library for Primus compatible web servers"
-authors = ["Janco Yspeert janco.h.yspeert@gmail.com", "with thanks to", "Kevin Hester, kevinh@geeksville.com", "Arnout Kazemier"]"\
+authors = ["Janco Yspeert janco.h.yspeert@gmail.com", "with thanks to", "Kevin Hester, kevinh@geeksville.com", "Arnout Kazemier"]
 
 [project.dependencies]
